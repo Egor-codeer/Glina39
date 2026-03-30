@@ -1,0 +1,41 @@
+.Glav {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(122, 239, 255),rgb(0, 60, 255));
+  text-decoration: none; 
+  margin-left: 170px;
+  font-size: 40px;
+}
+
+body {
+    background-image: url('https://abrakadabra.fun/uploads/posts/2021-11/1636522043_1-abrakadabra-fun-p-tekstura-glini-1.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.Hi {
+  margin-left: 470px;
+  background-image: linear-gradient(to bottom, rgb(71, 143, 153),rgb(183, 237, 255));
+  text-decoration: none;   
+  color: transparent;
+  background-clip: text;
+  font-size: 40px;
+}
+
+.Vetki {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to top, rgb(255, 255, 255),rgb(49, 3, 255));
+  text-decoration: none; 
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
