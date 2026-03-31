@@ -33,17 +33,42 @@ body {
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+a h1 {
   color: transparent;
+  -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(to top, rgb(255, 255, 255),rgb(49, 3, 255));
+  background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(49, 3, 255));
+  text-decoration: none;
+  transition: 3s;
+}
+
+a h1:hover {
+  text-decoration: underline;
+  color: blue;
 }
 
 .PK {
-  font-size: 40px;
+  border-radius: 10px;
+  font-size: 35px;
+  color: rgb(242, 255, 0);
+  margin-left: 1100px;
+  margin-top: -345px;    
 }
 
+.phone {
+  font-size: 35px;
+  color: rgb(242, 255, 0);
+  margin-left: 100px;
+  border-radius: 10px;
+}
 
+.GlavInd {
+  color: yellow;
+  font-size: 30px;  
+  font-family: cursive;
+  margin-left: 550px;
+}
 
-
+img {
+  border-radius: 10px;
+}
