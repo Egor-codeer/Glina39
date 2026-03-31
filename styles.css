@@ -5,6 +5,7 @@
   text-decoration: none; 
   margin-left: 170px;
   font-size: 40px;
+  font-family: Georgia;
 }
 
 body {
@@ -76,8 +77,9 @@ footer {
   margin-top: 220px;
 }
 
-.sostG {
+.h1G {
   color: yellow;
+  font-family: cursive;
 }
 
 .imgPage {
@@ -91,3 +93,20 @@ footer {
   height: 400px;
   width: 500px;
 }  
+
+.ButTop {
+  background-color: yellow;
+  color: darkblue; 
+  border: 3px solid #7bff82;
+  border-radius: 8px;
+  padding: 15px 40px;
+  cursor: pointer;
+  transition: 3s;
+  position: fixed;
+}
+
+.ButTop:hover {
+  background-color: darkblue;
+  border-color: #7bff82;
+  color: yellow;
+}
