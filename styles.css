@@ -42,11 +42,6 @@ a h1 {
   transition: 3s;
 }
 
-a h1:hover {
-  text-decoration: underline;
-  color: blue;
-}
-
 .PK {
   border-radius: 10px;
   font-size: 35px;
@@ -72,3 +67,27 @@ a h1:hover {
 img {
   border-radius: 10px;
 }
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  background: #a2dafc;
+  font-family: comic sans ms;
+  margin-top: 220px;
+}
+
+.sostG {
+  color: yellow;
+}
+
+.imgPage {
+  border-radius: 50px;
+  height: 300px;
+  width: 300px;
+  transition: 3s;
+}
+
+.imgPage:hover {
+  height: 400px;
+  width: 500px;
+}  
