@@ -107,10 +107,24 @@ h1 {
 }
 
 .imgPage:hover {
-  height: 70%;
-  width: 70%;
+  height: 75%;
+  width: 75%;
   max-width: 100%;
 }  
+
+.imgPageFont {
+  border-radius: 50px;
+  height: 350px;
+  width: 400px;
+  transition: 3s;
+  max-width: 100%;
+}
+
+.imgPageFont:hover {
+  height: 550px;
+  width: 550px;
+  max-width: 100%;
+} 
 
 .ButTop {
   background-color: yellow;
@@ -119,6 +133,7 @@ h1 {
   border-radius: 8px;
   padding: 48px 44px;
   cursor: pointer;
+  margin-left: 1300px;
   transition: 3s;
   position: fixed;
 }
