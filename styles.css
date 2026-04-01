@@ -1,11 +1,15 @@
 .Glav {
   color: transparent;
   background-clip: text;
-  background-image: linear-gradient(to right, rgb(122, 239, 255),rgb(0, 60, 255));
+  background-image: linear-gradient(to right, rgb(122, 239, 255),rgb(109, 143, 255));
   text-decoration: none; 
   margin-left: 170px;
-  font-size: 40px;
+  font-size: 250%;
   font-family: Georgia;
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 20px;
+  flex: 1 1 300px; 
 }
 
 body {
@@ -84,14 +88,16 @@ footer {
 
 .imgPage {
   border-radius: 50px;
-  height: 300px;
-  width: 300px;
+  height: 40%;
+  width: 40%;
   transition: 3s;
+  max-width: 100%;
 }
 
 .imgPage:hover {
-  height: 400px;
-  width: 500px;
+  height: 70%;
+  width: 70%;
+  max-width: 100%;
 }  
 
 .ButTop {
@@ -99,7 +105,7 @@ footer {
   color: darkblue; 
   border: 3px solid #7bff82;
   border-radius: 8px;
-  padding: 15px 40px;
+  padding: 48px 44px;
   cursor: pointer;
   transition: 3s;
   position: fixed;
