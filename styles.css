@@ -6,18 +6,20 @@
   margin-left: 170px;
   font-size: 250%;
   font-family: Georgia;
-  display: flex;
-  flex-wrap: wrap;  
-  gap: 20px;
-  flex: 1 1 300px; 
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url('https://abrakadabra.fun/uploads/posts/2021-11/1636522043_1-abrakadabra-fun-p-tekstura-glini-1.jpg'); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-attachment: fixed; 
-    background-position: center; 
+  background-image: url('https://abrakadabra.fun/uploads/posts/2021-11/1636522043_1-abrakadabra-fun-p-tekstura-glini-1.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center; 
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .Hi {
@@ -79,12 +81,21 @@ footer {
   background: #a2dafc;
   font-family: comic sans ms;
   margin-top: 220px;
-  flex: 1 1 300px; 
 }
 
 .h1G {
   color: yellow;
   font-family: cursive;
+}
+
+h1 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;    
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
 }
 
 .imgPage {
