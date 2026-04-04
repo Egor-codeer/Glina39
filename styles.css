@@ -1,9 +1,7 @@
 .Glav {
-  color: transparent;
-  background-clip: text;
-  background-image: linear-gradient(to right, rgb(122, 239, 255),rgb(109, 143, 255));
+  color: rgb(162, 162, 255);
   text-decoration: none; 
-  margin-left: 170px;
+  margin-left: 20px;
   font-size: 250%;
   font-family: Georgia;
   width: 100%;
@@ -24,10 +22,8 @@ body {
 
 .Hi {
   margin-left: 470px;
-  background-image: linear-gradient(to bottom, rgb(71, 143, 153),rgb(183, 237, 255));
+  color: lightgreen;
   text-decoration: none;   
-  color: transparent;
-  background-clip: text;
   font-size: 40px;
 }
 
@@ -142,4 +138,17 @@ h1 {
   background-color: darkblue;
   border-color: #7bff82;
   color: yellow;
+}
+
+.ld {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 40px;
+  transition: 3s;
+}
+
+.ld:hover {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 40px;
 }
