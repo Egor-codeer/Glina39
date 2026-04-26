@@ -130,11 +130,11 @@ function step10() {
 // --- ВОПРОС 11 ---
 function step11() {
     quest.innerText = 'Умеет ли глина впитывать радиацию?';
-    v1.innerText = 'Да, умеет'; 
-    v2.innerText = 'Нет, не умеет'; // Правильный
+    v1.innerText = 'Да, умеет'; // Правильный
+    v2.innerText = 'Нет, не умеет'; 
     v3.innerText = 'Нет, она умеет впитывать только тяжелые металлы'; 
-    v1.onclick = function() { update(finish); };
-    v2.onclick = function() { count++; update(finish); };
+    v1.onclick = function() { count++; update(finish); };
+    v2.onclick = function() { update(finish); };
     v3.onclick = function() { update(finish); };
 }
 
@@ -143,10 +143,6 @@ function finish() {
     quest.innerText = finalText;
     v1.innerText = ''; v2.innerText = ''; v3.innerText = '';
     v1.onclick = v2.onclick = v3.onclick = null;
-}
-
-if (finalText => 2) {
-    
 }
 // Вспомогательная функция — только обновляет счет и переходит дальше
 function update(nextStep) {

@@ -161,7 +161,7 @@ h1 {
   height: 50vh;
   margin-left: 120vh;
   position: relative;
-  top: -47vh;
+  top: -52vh;
 }
 
 #square3 {
@@ -178,7 +178,7 @@ h1 {
   font-size: 7vh;
   margin-left: 120vh;
   position: relative;
-  top: -170vh;
+  top: -180vh;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -247,7 +247,7 @@ h1 {
 }
 
 #ques {
-  font-size: 150px;
+  font-size: 100px;
   text-align: center;
   color: yellow;
   margin: 20px auto;
@@ -257,5 +257,5 @@ h1 {
 
 #sT {
   text-shadow: 2px 2px 4px black;
-  max-width: 500px;
+  max-width: 250px;
 }
