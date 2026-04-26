@@ -14,7 +14,7 @@ body {
   background-image: url('https://abrakadabra.fun/uploads/posts/2021-11/1636522043_1-abrakadabra-fun-p-tekstura-glini-1.jpg'); 
   background-repeat: no-repeat; 
   background-size: cover; 
-  background-attachment: fixed; 
+  background-attachment: fixed;   
   background-position: center; 
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -207,7 +207,54 @@ h1 {
   font-size: 20vh;
   position: relative;
   top: -150vh;
-  opacity: 0.5;
+  opacity: 0;
   user-select: none;
   -webkit-user-select: none;
+}
+
+/* Создаем контейнер, где все будет лежать ровно */
+.test-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  height: 400px; /* Фиксированная высота, чтобы ничего не прыгало */
+}
+
+/* Квадраты теперь стоят в ряд без гигантских margin-left */
+.square {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#square1 { background: green; }
+#square2 { background: yellow; }
+#square3 { background: orange; }
+
+/* Счетчик и вопрос зафиксируйте сверху */
+#counter {
+  font-size: 500px;
+  text-align: center;
+  color: white;
+  margin: 20px 0;
+}
+
+#ques {
+  font-size: 150px;
+  text-align: center;
+  color: yellow;
+  margin: 20px auto;
+  max-width: 1300px;
+  min-height: 1.2em;
+}
+
+#sT {
+   text-shadow: 2px 2px 4px black;
 }
