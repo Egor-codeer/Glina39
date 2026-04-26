@@ -256,5 +256,6 @@ h1 {
 }
 
 #sT {
-   text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 4px black;
+  max-width: 500px;
 }
