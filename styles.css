@@ -146,3 +146,68 @@ h1 {
   border: 2px solid white;
   border-radius: 40px;
 }
+
+#square1 {
+  background: green;
+  width: 50vh;
+  height: 50vh;
+  position: relative;
+  top: 4vh;
+}
+
+#square2 {
+  background: yellow;
+  width: 50vh;
+  height: 50vh;
+  margin-left: 120vh;
+  position: relative;
+  top: -47vh;
+}
+
+#square3 {
+  background: orange;
+  width: 50vh;
+  height: 50vh;
+  margin-left: 60vh;
+  position: relative;
+  top: -100vh;
+}
+
+#squareText3 {
+  color: red;
+  font-size: 7vh;
+  margin-left: 120vh;
+  position: relative;
+  top: -170vh;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#squareText2 {
+  color: white;
+  font-size: 7vh;
+  margin-left: 60vh;
+  position: relative;
+  top: -163vh;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#squareText1 {
+  color: yellow;
+  font-size: 7vh;
+  margin-left: 6vh;
+  position: relative;
+  top: -150vh;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+#counter {
+  font-size: 20vh;
+  position: relative;
+  top: -150vh;
+  opacity: 0.5;
+  user-select: none;
+  -webkit-user-select: none;
+}
